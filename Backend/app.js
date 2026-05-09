@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import connectDB from "./Database/database.js";
+import connectDB from "./database/database.js";
 
 dotenv.config();
 
@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
   res.send("Portfolio API Running");
 });
 
+// Connect to MongoDB
 connectDB();
 
 const PORT = process.env.PORT || 5000;
