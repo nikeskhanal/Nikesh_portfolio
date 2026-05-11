@@ -14,9 +14,11 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         <span className="text-xl font-bold tracking-tight">YourName</span>
         <ul className="hidden md:flex gap-8">
-          {links.map(link => (
+          {links.map((link) => (
             <li key={link.name}>
-              <a href={link.to} className="hover:text-cyan-400 transition">{link.name}</a>
+              <a href={link.to} className="hover:text-cyan-400 transition">
+                {link.name}
+              </a>
             </li>
           ))}
         </ul>

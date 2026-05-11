@@ -13,8 +13,13 @@ export default function ProjectCard({ title, description, tech }) {
       </div>
       <p className="text-gray-400 mb-4">{description}</p>
       <div className="flex flex-wrap gap-2">
-        {tech.map(t => (
-          <span key={t} className="bg-gray-800 text-cyan-300 px-3 py-1 rounded text-xs">{t}</span>
+        {tech.map((t) => (
+          <span
+            key={t}
+            className="bg-gray-800 text-cyan-300 px-3 py-1 rounded text-xs"
+          >
+            {t}
+          </span>
         ))}
       </div>
     </motion.div>

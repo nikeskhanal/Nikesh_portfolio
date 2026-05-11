@@ -1,13 +1,16 @@
 const contacts = [
   {
-    label: "Email", link: "mailto:your@email.com"
+    label: "Email",
+    link: "mailto:your@email.com",
   },
   {
-    label: "GitHub", link: "https://github.com/yourusername"
+    label: "GitHub",
+    link: "https://github.com/yourusername",
   },
   {
-    label: "LinkedIn", link: "https://linkedin.com/in/yourusername"
-  }
+    label: "LinkedIn",
+    link: "https://linkedin.com/in/yourusername",
+  },
 ];
 
 export default function Contact() {

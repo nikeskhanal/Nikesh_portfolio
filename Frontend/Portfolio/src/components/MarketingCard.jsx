@@ -1,4 +1,11 @@
-import { BarChart3, Search, Users, TrendingUp, Megaphone, Mail } from "lucide-react";
+import {
+  BarChart3,
+  Search,
+  Users,
+  TrendingUp,
+  Megaphone,
+  Mail,
+} from "lucide-react";
 import { motion } from "framer-motion";
 
 const typeIcon = {
