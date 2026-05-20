@@ -17,7 +17,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        Your Name
+        Nikesh Khanal
       </motion.h1>
       <motion.h2
         className="relative z-10 mt-4 text-2xl md:text-3xl font-semibold text-gray-300 tracking-wide"
@@ -26,7 +26,9 @@ export default function Hero() {
         transition={{ delay: 0.2, duration: 0.7 }}
       >
         Full Stack Developer{" "}
-        <span className="text-cyan-400">&</span> Digital Marketer
+        <span className="text-cyan-400">|</span> Digital Marketer{" "}
+        <span className="text-cyan-400">|</span> SEO Expert{" "}
+        <span className="text-cyan-400">|</span> Content Writer
       </motion.h2>
       <motion.p
         className="relative z-10 mt-6 max-w-2xl text-lg md:text-xl text-gray-400 mx-auto"
@@ -34,8 +36,9 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.7 }}
       >
-        I craft modern web experiences and drive digital growth through SEO, social
-        media, and analytics. Let’s build something impactful together.
+        I craft modern web experiences, drive digital growth through SEO and
+        marketing, and create compelling content. Let’s build something impactful
+        together.
       </motion.p>
       <motion.a
         href="#contact"
